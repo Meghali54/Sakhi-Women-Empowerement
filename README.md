@@ -1,55 +1,64 @@
-<div align="center">
-  <h1> 
-    <img src="https://sakhi.vercel.app/logo.png" width="64px">
-    <br/> 
-    Sakhi: Wellness Friend
-  </h1>
-  Sakhi, a mobile-first app tailored for women, encompasses daily journals, safety features, community, and holistic health tools. Elevate your well-being with Sakhi, your dedicated companion for empowerment, connection, and growth.
-</div>
+# 🌸 Sakhi – Safety, Support & Success for Every Woman
 
-## Problem Statemet
-Every month, 1.8 billion people across the world menstruate. Millions of these are unable to manage their menstrual cycle in a dignified, healthy way. Develop an inclusive platform that not only promotes good health and well-being but also contributes to reducing inequalities and fostering gender equality.
+Sakhi is a women’s empowerment platform that combines **personal safety tools**, **scholarship and job opportunities**, and **community support** — all in one place.
 
-## What we’ve built
-Imagine an app that seamlessly integrates a mood-reflective journal, track menstrual cycles, safety features with a "Sakhi" chatbot for support, and a vibrant community where women uplift each other.
+---
 
-A platform that not only tracks physical health but also provides mental support in a post-pandemic world. a trusted companion in her journey, offering everything, fostering a catalyst for positive change making every woman feel not just safe, but truly empowered.
+## 🚀 Features
 
-## SDGs we are tagreting
-- Good Health and Wellbeing
-- Reduced Inequalities
-- Gender Equality
+- **📱 Fake Call Tool** – Simulate an incoming call with a custom name & number to escape unsafe situations.  
+- **🎓 Scholarship Hub** – Curated scholarships with deadlines, eligibility criteria, and tips.  
+- **💼 Job Listings** – Inclusive job postings, resume tips, and interview preparation resources.  
+- **🚨 Emergency Resources** – Quick access to verified helpline numbers (women’s helpline, child helpline, anti-stalking, etc.).  
+- **📺 Educational Videos** – Knowledge resources to empower and guide women in different areas.  
 
-## Features
-- Menstrual Tracker
-- Mood & Journal
-- Emergency & SOS
-- Community & Edu
-- Sakhi Bot 
-- Fact Check
-- Menstrual knowledge
-- Self Defence Tutor
-- Locate Nearby Hospitals, Police Stations
+---
 
-# Product Video
+## 🛠️ Tech Stack
 
-https://github.com/VishwaGauravIn/sakhi/assets/96358784/ccc9a38f-ee90-42b5-aa64-302904fb563d
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Node.js, Express  
+- **Database:** MongoDB / Firebase  
+- **Other Tools:** React Router, Axios, Framer Motion, Vercel (Deployment)
 
-## Try out Sakhi App
+---
 
-<a href="https://sakhi.vercel.app/Sakhi.apk" download>
- Download the APK file
-</a>
+## 🧩 Problem It Solves
 
-#### Note
-While trying the app you might get a warning app isn't verified as Google app verification takes 3-5 business days and we have not yet put this on verification, you can click on advanced, and then proceed.
+Women often struggle with **personal safety**, **access to opportunities**, and **finding trusted resources** in one place.  
+Sakhi centralizes **safety tools**, **career & education resources**, and **community support** to make life safer and easier.
 
-## Run this locally
+---
+
+## 💡 Challenges I Faced
+
+- **Realistic Fake Call:** Had to design a convincing fake call UI and trigger.  
+  ✔ Solved by adding a customizable name/number and a timed delay for realism.  
+
+- **Dynamic Data Management:** Handling scholarships and jobs efficiently.  
+  ✔ Solved by using a structured database/JSON system for easy updates.
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here if you have them for a better README!)
+
+---
+
+## ⚡ Installation & Setup
+
+Clone this project and run locally:
 
 ```bash
-git clone <repo-url>
-cd <repo-name>
-# Refer to sample.env for env variables
+# Clone repo
+git clone https://github.com/your-username/sakhi.git
+
+# Go to project folder
+cd sakhi
+
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
-```
